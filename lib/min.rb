@@ -10,4 +10,16 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
+  # min = nil
+
+  # groceries.each do |keys, values|
+  #   values.each do |element|
+  #     if min == nil || min > element
+  #       min = element
+  #     end
+  #   end
+  # end
+  # min
+  groceries.values.flatten.min
+
 end
